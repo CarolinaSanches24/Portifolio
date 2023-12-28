@@ -1,0 +1,51 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 49px 10% 0 10%;
+  z-index: 1;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-dark-blue);
+  z-index: 1;
+  background-color: var(--color-white);
+  padding: 1em 3em 1em 3em;
+  border-radius: 5px;
+}
+.text_one {
+  font-family: var(--font-robot);
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: normal;
+}
+.text_two {
+  font-family: var(--font-robot);
+  font-weight: 400;
+  font-size: 25px;
+}
+.text_tree {
+  font-weight: 800;
+  font-size: 25px;
+}
+.item {
+  list-style: none;
+}
+.course {
+  margin: 1em 0 1em 0;
+  display: flex;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1em;
+}
+.school {
+  font-size: 12px;
+  text-align: center;
+}

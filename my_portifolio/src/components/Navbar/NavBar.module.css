@@ -5,11 +5,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding: 1em 3em 1em 3em;
   z-index: 2;
-  margin: 0 10%;
+  background-color: var(--color-bg);
 }
-
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-decoration: none;
+}
 .menu {
   display: flex;
 }
@@ -22,24 +27,25 @@
 
 .menuItems a {
   font-size: 18px;
-  color: var(--color-text);
+  color: var(--color-white);
   text-decoration: none;
   font-family: var(--font-Inconsolata);
 }
 .menuItems a:hover {
   color: var(--color-orange);
 }
-
+.menuBtn {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
@@ -47,9 +53,11 @@
   }
 
   .menuBtn {
+    display: block;
     position: absolute;
-    right: -30px;
+    right: 20px;
     top: 10px;
+    cursor: pointer;
   }
 
   .menuItems {
@@ -64,6 +72,7 @@
       rgba(25, 55, 109, 0.2) 0%,
       rgba(25, 55, 109, 1) 100%
     );
+    margin-top: 54px;
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
