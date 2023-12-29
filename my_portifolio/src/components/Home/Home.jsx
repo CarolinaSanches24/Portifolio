@@ -48,14 +48,34 @@ export const Home = () => {
             </p>
           </li>
         </ul>
+        <a
+          href="mailto:carolmosilva34@gmail.com"
+          className={styles.button_contact}
+        >
+          Contate-me
+        </a>
+        <div className={styles.container_social_contact}>
+          <p>OU</p>
+          <div className={styles.social_contact}>
+            <a href="https://www.linkedin.com/in/carol-sanches-moraes/">
+              <img src={getImageUrl("home/icon_linkedin.png")} />
+            </a>
+            <a href="https://github.com/CarolinaSanches24">
+              <img src={getImageUrl("home/icon_github.png")} />
+            </a>
+            <a href="https://wa.me/qr/QKM33WTJHOH4G1">
+              <img src={getImageUrl("home/icon_whatsapp.png")} />
+            </a>
+          </div>
+        </div>
       </div>
       <img
         src={getImageUrl("home/my_photo.png")}
         alt="Fotografia Carolina Sanches em sua formatura"
         className={styles.my_photo}
       />
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
+      <div className={styles.topOrange} />
+      <div className={styles.bottomOrange} />
     </section>
   );
 };

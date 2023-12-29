@@ -20,9 +20,10 @@
 }
 .text_one {
   font-family: var(--font-robot);
-  font-size: 25px;
-  font-weight: lighter;
   font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 25px;
 }
 .text_two {
   font-family: var(--font-robot);
@@ -32,6 +33,7 @@
 .text_tree {
   font-weight: 800;
   font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(150, 81, 42, 0.8);
 }
 .item {
   list-style: none;
@@ -48,4 +50,149 @@
 .school {
   font-size: 12px;
   text-align: center;
+}
+.my_photo {
+  width: 30%;
+  z-index: 1;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  border-radius: 50%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+.button_contact {
+  padding: 15px 30px;
+  margin: 1em 0 1em 30%;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-white);
+  background: linear-gradient(
+    to right,
+    var(--color-orange-secundary),
+    var(--color-orange-terciary)
+  );
+  border: none;
+  border-radius: 5px;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.button_contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: rgba(237, 221, 186, 0.2);
+  transition: width 0.3s ease;
+  z-index: -1;
+}
+
+.button_contact:hover::before {
+  width: 100%;
+}
+
+.button_contact:hover {
+  color: var(--color-white);
+  background: linear-gradient(
+    to right,
+    var(--color-orange-secundary),
+    var(--color-orange-terciary)
+  );
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.8);
+}
+.container_social_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 35%;
+}
+.social_contact {
+  display: flex;
+  padding: 1em;
+}
+.social_contact img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  transition: border-color 0.3s ease;
+}
+.social_contact img:hover {
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.8);
+  border-radius: 20%;
+  cursor: pointer;
+}
+.topOrange {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: 10vw;
+  border-radius: 764px;
+  background: rgba(255, 165, 0, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+.bottomOrange {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 500px;
+  right: -50vw;
+  border-radius: 764px;
+  background: rgba(255, 165, 0, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .content {
+    align-items: center;
+  }
+  .text_one,
+  .text_tree,
+  .text_two {
+    font-size: 16px;
+  }
+  .course {
+    font-size: 14px;
+  }
+  .school {
+    font-size: 12px;
+  }
+  .my_photo {
+    width: 50%;
+    margin-bottom: 10%;
+  }
+  .button_contact {
+    padding: 0.5em;
+    margin: 1em 0 1em 0;
+  }
+  .container_social_contact {
+    margin: 0;
+  }
 }

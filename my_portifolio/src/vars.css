@@ -7,8 +7,11 @@
   --color-dark-blue: #092635;
   --color-bg: #04152d;
   --color-orange: #e3651d;
+  --color-orange-secundary: #ff8c00;
+  --color-orange-terciary: #ff4500;
 
   /*Fonts */
   --font-robot: "Roboto";
   --font-Inconsolata: "Inconsolata";
+  --font-robot-condensed: "Roboto Condensed", sans-serif;
 }
