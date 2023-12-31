@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 49px 10% 0 10%;
+  margin: 40px 10% 0 10%;
   z-index: 1;
 }
 .content {
@@ -15,42 +15,45 @@
   color: var(--color-dark-blue);
   z-index: 1;
   background-color: var(--color-white);
-  padding: 1em 3em 1em 3em;
-  border-radius: 5px;
+  padding: 1em;
+  border-radius: 20px;
 }
-.text_one {
+.text_content {
   font-family: var(--font-robot);
-  font-style: normal;
   font-weight: 300;
   line-height: normal;
   font-size: 25px;
+  opacity: 0.8;
 }
-.text_two {
-  font-family: var(--font-robot);
-  font-weight: 400;
-  font-size: 25px;
-}
-.text_tree {
+
+.text_name_content {
   font-weight: 800;
   font-size: 25px;
   text-shadow: 2px 2px 4px rgba(150, 81, 42, 0.8);
 }
-.item {
-  list-style: none;
+
+.education {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
 }
-.course {
-  margin: 1em 0 1em 0;
+.education_itens {
   display: flex;
 }
-.icon {
+.education_item {
+  list-style: none;
+}
+
+.education_name_school {
+  font-size: 12px;
+  padding: 1em 0 1em 0;
+}
+.education_icon {
   width: 30px;
   height: 30px;
   margin-right: 1em;
 }
-.school {
-  font-size: 12px;
-  text-align: center;
-}
+
 .my_photo {
   width: 30%;
   z-index: 1;
@@ -76,7 +79,7 @@
 }
 .button_contact {
   padding: 15px 30px;
-  margin: 1em 0 1em 30%;
+  margin: 0.5em 0 1em 30%;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -127,7 +130,7 @@
 }
 .social_contact {
   display: flex;
-  padding: 1em;
+  padding: 0.5em 1em;
 }
 .social_contact img {
   width: 30px;
@@ -143,7 +146,7 @@
 .topOrange {
   position: absolute;
   width: 50vw;
-  height: 50vw;
+  height: 30vw;
   min-width: 350px;
   top: -128px;
   left: 10vw;
@@ -154,12 +157,12 @@
 }
 .bottomOrange {
   position: absolute;
-  width: 70vw;
+  width: 20vw;
   height: 50vw;
   min-width: 350px;
   min-width: 250px;
   top: 500px;
-  right: -50vw;
+  right: -8vw;
   border-radius: 764px;
   background: rgba(255, 165, 0, 0.7);
   filter: blur(100px);
@@ -173,17 +176,12 @@
   .content {
     align-items: center;
   }
-  .text_one,
-  .text_tree,
-  .text_two {
-    font-size: 16px;
+
+  .education_name_school,
+  .education_name_course {
+    text-align: center;
   }
-  .course {
-    font-size: 14px;
-  }
-  .school {
-    font-size: 12px;
-  }
+
   .my_photo {
     width: 50%;
     margin-bottom: 10%;

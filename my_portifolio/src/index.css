@@ -7,3 +7,6 @@
 body {
   background-color: var(--color-orange);
 }
+html {
+  scroll-behavior: smooth;
+}

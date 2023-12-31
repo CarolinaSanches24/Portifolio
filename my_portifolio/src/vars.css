@@ -14,4 +14,7 @@
   --font-robot: "Roboto";
   --font-Inconsolata: "Inconsolata";
   --font-robot-condensed: "Roboto Condensed", sans-serif;
+
+  /*Effects*/
+  --efect-shadow: 0px 4px 10px 10px #411e09;
 }

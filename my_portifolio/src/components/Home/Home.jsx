@@ -4,49 +4,55 @@ export const Home = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <p className={styles.text_one}>OLÁ,</p>
-        <p className={styles.text_two}>EU SOU</p>
-        <p className={styles.text_tree}>CAROLINA SANCHES</p>
+        <p className={styles.text_content}>OLÁ,</p>
+        <p className={styles.text_content}>EU SOU</p>
+        <p className={styles.text_name_content}>CAROLINA SANCHES</p>
         <ul className={styles.education}>
-          <li className={styles.item}>
-            <div className={styles.course}>
-              <img
-                className={styles.icon}
-                src={getImageUrl("home/icon_engenharia.png")}
-                alt="icone engrenagem"
-              />
-              <p>Pós Graduanda de Engenharia de Software (Cursando)</p>
-            </div>
-            <p className={styles.school}>Faculdade Digital Descomplica</p>
-          </li>
-
-          <li className={styles.item}>
-            <div className={styles.course}>
-              <img
-                src={getImageUrl("home/icon_licenciatura.png")}
-                alt="icone livros"
-                className={styles.icon}
-              />
-              <p>Graduada em Licenciatura em Informática</p>
-            </div>
-            <p className={styles.school}>
-              Instituto Federal de Ciência e Tecnologia do Amapá -IFAP
-            </p>
-          </li>
-          <li className={styles.item}>
-            <div className={styles.course}>
-              <img
-                src={getImageUrl("home/icon_informatica.png")}
-                alt="icone computador"
-                className={styles.icon}
-              />
-
-              <p>Técnica em Informática</p>
-            </div>
-            <p className={styles.school}>
-              Centro de Ensino Profissionalizante do Amapá
-            </p>
-          </li>
+          <div className={styles.education_itens}>
+            <img
+              className={styles.education_icon}
+              src={getImageUrl("home/icon_engenharia.png")}
+              alt="icone engrenagem"
+            />
+            <li className={styles.education_item}>
+              <p className={styles.education_name_course}>
+                Pós Graduanda de Engenharia de Software (Cursando)
+              </p>
+              <p className={styles.education_name_school}>
+                Faculdade Digital Descomplica
+              </p>
+            </li>
+          </div>
+          <div className={styles.education_itens}>
+            <img
+              className={styles.education_icon}
+              src={getImageUrl("home/icon_licenciatura.png")}
+              alt="icone engrenagem"
+            />
+            <li className={styles.education_item}>
+              <p className={styles.education_name_course}>
+                Graduanda em Licenciatura em Informática
+              </p>
+              <p className={styles.education_name_school}>
+                Faculdade Digital Descomplica
+              </p>
+            </li>
+          </div>
+          <div className={styles.education_itens}>
+            <img
+              className={styles.education_icon}
+              src={getImageUrl("home/icon_informatica.png")}
+              alt="icone engrenagem"
+            />
+            <li className={styles.education_item}>
+              <p className={styles.education_name_course}>
+                Técnica em Informática
+              </p>
+              <p className={styles.education_name_school}>
+                Centro de ensino profissionalizante do Amapá
+              </p>
+            </li>
+          </div>
         </ul>
         <a
           href="mailto:carolmosilva34@gmail.com"

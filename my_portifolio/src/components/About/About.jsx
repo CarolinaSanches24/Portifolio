@@ -2,7 +2,7 @@ import { getImageUrl } from "../../utils";
 import styles from "./About.module.css";
 export const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <div className={styles.apresentation}>
         <h2 className={styles.title}>Sobre mim</h2>
         <article className={styles.description}>
@@ -24,18 +24,15 @@ export const About = () => {
               src={getImageUrl("about/icon_frontend.png")}
               alt="Icone Front-end"
             />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-            </div>
+            <h3>Frontend Developer</h3>
           </li>
           <li className={styles.aboutItem}>
             <img
               src={getImageUrl("about/icon_backend.png")}
               alt="Icone Back-end"
             />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-            </div>
+
+            <h3>Backend Developer</h3>
           </li>
         </ul>
       </div>

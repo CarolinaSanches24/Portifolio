@@ -64,5 +64,36 @@
   font-weight: 600;
 }
 
-@media screend and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .container {
+    background-color: transparent;
+    padding: 0;
+    margin-top: 20%;
+    flex-direction: column;
+  }
+  .apresentation {
+    width: 100%;
+  }
+  .content h3 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .content {
+    margin: 10% 0 20% 0;
+  }
+  .content img {
+    padding-left: 1em;
+    width: 50px;
+  }
+  .aboutImage {
+    display: none;
+  }
+  .aboutItems {
+    padding: 0;
+    gap: 10px;
+  }
+  .aboutItem {
+    padding: 0.5em;
+    border-radius: 5px;
+  }
 }

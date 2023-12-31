@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10% 0 50% 50px;
+  gap: 10%;
+}
+
+.container_Imagens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+  grid-template-rows: repeat(2, auto); /* Duas linhas */
+  gap: 20px;
+}
+
+.gridItem {
+  text-align: center;
+}
+
+.soft_skill_Image {
+  max-width: 40%;
+  cursor: pointer;
+}
+
+.legend {
+  margin-top: 10px;
+  color: var(--color-white);
+}
+.container_text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--color-dark-blue);
+  max-width: 50%;
+  text-align: center;
+  height: 70%;
+  border-radius: 30px;
+  box-shadow: var(--efect-shadow);
+  color: var(--color-white);
+  margin-bottom: 5%;
+}
