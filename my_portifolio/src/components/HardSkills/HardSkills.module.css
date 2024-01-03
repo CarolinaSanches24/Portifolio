@@ -1,0 +1,86 @@
+@import "../../vars.css";
+.container {
+  color: var(--color-white);
+  margin: 79px 10%;
+}
+.title {
+  color: var(--color-white);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+}
+.container img {
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.hard_skills,
+.tools {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+  justify-content: center;
+}
+
+.skill,
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+.skillImageContainer,
+.toolImageContainer {
+  background-color: var(--color-white);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+.learning_tech {
+  width: 35%;
+  gap: 37px;
+  text-align: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  padding: 2em;
+}
+.itemImageContainer {
+  background-color: var(--color-dark-blue);
+  border: solid 2px var(--color-white);
+  box-shadow: var(--efect-shadow-orange);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+
+  position: relative;
+}
+.bottomOrange {
+  position: absolute;
+  width: 20vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 250px;
+  right: 80%;
+  border-radius: 764px;
+  background: rgba(255, 165, 0, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}

@@ -40,7 +40,9 @@ export const NavBar = () => {
             <a href="#projects">Projetos</a>
           </li>
           <li>
-            <a href="#contact">Contato</a>
+            <a href="#contact" className={styles.button_resume}>
+              Resume
+            </a>
           </li>
         </ul>
       </div>

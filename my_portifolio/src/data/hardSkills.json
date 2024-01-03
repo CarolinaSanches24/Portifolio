@@ -1,0 +1,22 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "hard_skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "hard_skills/css.png"
+  },
+  {
+    "title": "Java Script",
+    "imageSrc": "hard_skills/javascript.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "hard_skills/sql.png"
+  },
+  {
+    "title": "Node.JS",
+    "imageSrc": "hard_skills/node.png"
+  }
+]

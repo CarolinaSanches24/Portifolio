@@ -1,0 +1,14 @@
+[
+  {
+    "title": "React",
+    "imageSrc": "hard_skills/react.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "hard_skills/java.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "hard_skills/python.png"
+  }
+]

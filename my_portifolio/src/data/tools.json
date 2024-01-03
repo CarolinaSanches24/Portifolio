@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Git",
+    "imageSrc": "hard_skills/git.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "hard_skills/github.png"
+  },
+  {
+    "title": "VsCode",
+    "imageSrc": "hard_skills/vscode.png"
+  },
+  {
+    "title": "PostgresSQL",
+    "imageSrc": "hard_skills/postgres.png"
+  },
+  {
+    "title": "IntelliJ",
+    "imageSrc": "hard_skills/intellij.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "hard_skills/figma.png"
+  }
+]
