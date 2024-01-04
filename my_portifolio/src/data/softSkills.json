@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "soft_skills/lideranca.png",
+    "title": "Liderança",
+    "description": "Exerci papéis de liderança, orientando e apoiando a equipe para atingir metas desafiadoras, incentivando a inovação e a busca pela excelência"
+  },
+  {
+    "id": 2,
+    "imageSrc": "soft_skills/comunicacao.png",
+    "title": "Comunicação",
+    "description": "Durante minhas experiências profissionais sempre me comuniquei de forma clara e consisa, mantendo o dialógo com a equipe em que estava trabalhando e mantia-me sempre informada."
+  },
+  {
+    "id": 3,
+    "imageSrc": "soft_skills/empatia.png",
+    "title": "Empatia",
+    "description": "Sempre busquei compreender as necessidades e sentimentos dos colegas de equipe, promovendo um ambiente colaborativo e de apoio mútuo."
+  },
+  {
+    "id": 4,
+    "imageSrc": "soft_skills/colaboracao.png",
+    "title": "Colaboração",
+    "description": "Participei ativamente de projetos que envolviam colaboração entre diferentes equipes, contribuindo para a sinergia e a consecução dos objetivos comuns."
+  },
+  {
+    "id": 5,
+    "imageSrc": "soft_skills/organizacao.png",
+    "title": "Organização",
+    "description": "Desenvolvi habilidades de organização e planejamento ao liderar minha equipe para resolução de um desafio da Cubos Academy, garantindo a entrega dentro dos prazos estabelecidos."
+  }
+]
