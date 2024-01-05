@@ -4,6 +4,7 @@ import { HardSkills } from "./components/HardSkills/HardSkills";
 // import { Experience } from "./components/Experience/Experience";
 import { Home } from "./components/Home/Home";
 import { NavBar } from "./components/Navbar/NavBar";
+import { SoftSkillCard } from "./components/SoftSkills/SoftSkillCard";
 import { SoftSkills } from "./components/SoftSkills/SoftSkills";
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
       <Home />
       <About />
       <SoftSkills />
+      <SoftSkillCard />
       <HardSkills />
-      {/* <Experience /> */}
     </div>
   );
 }

@@ -193,4 +193,8 @@
   .container_social_contact {
     margin: 0;
   }
+  .topOrange {
+    left: 0;
+    min-width: 200px;
+  }
 }
