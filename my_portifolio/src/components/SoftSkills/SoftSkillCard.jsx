@@ -32,7 +32,9 @@ export const SoftSkillCard = () => {
       {selectedImage && (
         <div className={styles.popup}>
           <p>{selectedImage.description}</p>
-          <button onClick={closePopup}>Fechar</button>
+          <button onClick={closePopup} className={styles.buttonClose}>
+            Fechar
+          </button>
         </div>
       )}
     </article>

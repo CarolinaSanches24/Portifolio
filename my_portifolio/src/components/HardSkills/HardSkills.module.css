@@ -84,3 +84,19 @@
   filter: blur(100px);
   z-index: 0;
 }
+
+.containerSlider {
+  display: none;
+}
+@media screen and (max-width: 728px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    display: none;
+  }
+  .containerSlider {
+    display: block;
+  }
+}

@@ -1,6 +1,7 @@
 import styles from "./App.module.css";
 import { About } from "./components/About/About";
 import { HardSkills } from "./components/HardSkills/HardSkills";
+import { HardSkillsSlider } from "./components/HardSkills/HardSkillsSlider";
 // import { Experience } from "./components/Experience/Experience";
 import { Home } from "./components/Home/Home";
 import { NavBar } from "./components/Navbar/NavBar";
@@ -16,6 +17,7 @@ function App() {
       <SoftSkills />
       <SoftSkillCard />
       <HardSkills />
+      <HardSkillsSlider />
     </div>
   );
 }

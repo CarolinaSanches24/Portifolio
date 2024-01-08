@@ -128,9 +128,53 @@
     z-index: 999;
     width: 60%;
     max-width: 280px;
+    text-align: justify;
   }
 
   .popup button {
     margin-top: 10px;
+  }
+  .buttonClose {
+    padding: 10px;
+    margin: 30% 30% 0 30%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-white);
+    background: linear-gradient(
+      to right,
+      var(--color-orange-secundary),
+      var(--color-orange-terciary)
+    );
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .buttonClose::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(237, 221, 186, 0.2);
+    transition: width 0.3s ease;
+    z-index: -1;
+  }
+  .buttonClose:hover {
+    color: var(--color-white);
+    background: linear-gradient(
+      to right,
+      var(--color-orange-secundary),
+      var(--color-orange-terciary)
+    );
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.8);
+  }
+  .buttonClose:hover::before {
+    width: 100%;
   }
 }
