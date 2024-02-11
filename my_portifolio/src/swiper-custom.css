@@ -1,0 +1,13 @@
+@import "./vars.css";
+
+/* Estilos para a navegação (botões de próxima e anterior) */
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--color-white) !important;
+}
+
+/* Estilos para a paginação */
+
+.swiper-pagination-bullet {
+  background-color: var(--color-dark) !important;
+}

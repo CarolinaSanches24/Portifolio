@@ -1,13 +1,16 @@
 [
   {
+    "id": 1,
     "title": "React",
     "imageSrc": "hard_skills/react.png"
   },
   {
+    "id": 2,
     "title": "Java",
     "imageSrc": "hard_skills/java.png"
   },
   {
+    "id": 3,
     "title": "Python",
     "imageSrc": "hard_skills/python.png"
   }

@@ -1,58 +1,98 @@
-import { getImageUrl } from "../../utils";
-
-import hardSkills from "../../data/hardSkills.json";
-import tools from "../../data/tools.json";
-import learning from "../../data/learningTech.json";
 import styles from "./HardSkills.module.css";
+import learning from "../../data/learningTech.json";
+import tools from "../../data/tools.json";
+import hardSkills from "../../data/hardSkills.json";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { useState, useEffect } from "react";
+import { getImageUrl } from "../../utils";
+import AnimatedText from "../AnimatedText/AnimatedText";
+
 export const HardSkills = () => {
+  const [slidePerView, setSlidePerView] = useState(3);
+
+  //Responsividade do slide
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth < 720) {
+        setSlidePerView(1);
+      } else {
+        setSlidePerView(3);
+      }
+    }
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
-    <section id="hard_skills" className={styles.container}>
+    <section id="hard_skills">
       <h2 className={styles.title}>
         Hard <span style={{ color: "#092635" }}>Skills</span>
       </h2>
 
-      <div className={styles.content}>
-        <div className={styles.hard_skills}>
-          <p>Tecnologias que tenho conhecimento</p>
-          {hardSkills.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
-        </div>
-        <div className={styles.tools}>
-          <p>Ferramentas que utilizo</p>
-          {tools.map((tool, id) => {
-            return (
-              <div key={id} className={styles.tool}>
-                <div className={styles.toolImageContainer}>
-                  <img src={getImageUrl(tool.imageSrc)} alt={tool.title} />
-                </div>
-                <p>{tool.title}</p>
-              </div>
-            );
-          })}
-        </div>
-        <div className={styles.bottomOrange} />
-        <div className={styles.learning_tech}>
-          <p>Tecnologias que estou aprendendo</p>
-          {learning.map((item, id) => {
-            return (
-              <div key={id} className={styles.item}>
-                <div className={styles.itemImageContainer}>
-                  <img src={getImageUrl(item.imageSrc)} alt={item.title} />
-                </div>
-
-                <p>{item.title}</p>
-              </div>
-            );
-          })}
-        </div>
+      <div className={styles.container}>
+        <AnimatedText>
+          <p className={styles.subtitle}>Tecnologias que tenho conhecimento</p>
+        </AnimatedText>
+        <Swiper
+          slidesPerView={slidePerView}
+          pagination={{ clickable: true }}
+          navigation
+        >
+          {hardSkills.map((skill) => (
+            <SwiperSlide key={skill.id}>
+              <img
+                src={getImageUrl(skill.imageSrc)}
+                alt={skill.title}
+                className={styles.slide_item}
+              />
+              <figcaption>{skill.title}</figcaption>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+      <div className={styles.container_learning}>
+        <AnimatedText>
+          <p className={styles.subtitle}>Tecnologias que estou aprendendo</p>
+        </AnimatedText>
+        {learning.map((skill) => (
+          <div key={skill.id}>
+            {" "}
+            {/* Adicione um elemento pai para cada item */}
+            <img
+              src={getImageUrl(skill.imageSrc)}
+              alt={skill.title}
+              className={styles.image_learning}
+            />
+            <figcaption className={styles.figcaption_learning}>
+              {skill.title}
+            </figcaption>
+          </div>
+        ))}
+      </div>
+      <div className={styles.container}>
+        <AnimatedText>
+          <p className={styles.subtitle}>Ferramentas que utilizo</p>
+        </AnimatedText>
+        <Swiper
+          slidesPerView={slidePerView}
+          pagination={{ clickable: true }}
+          navigation
+        >
+          {tools.map((skill) => (
+            <SwiperSlide key={skill.id}>
+              <img
+                src={getImageUrl(skill.imageSrc)}
+                alt={skill.title}
+                className={styles.slide_item}
+              />
+              <figcaption>{skill.title}</figcaption>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </section>
   );

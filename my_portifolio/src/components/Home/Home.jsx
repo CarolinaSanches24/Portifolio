@@ -34,7 +34,7 @@ export const Home = () => {
                 Graduanda em Licenciatura em Informática
               </p>
               <p className={styles.education_name_school}>
-                Faculdade Digital Descomplica
+                Instituto Federal de Ciência e Tecnologia do Amapá
               </p>
             </li>
           </div>

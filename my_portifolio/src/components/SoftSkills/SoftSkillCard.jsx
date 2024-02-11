@@ -5,9 +5,11 @@ import softSkillsData from "../../data/softSkills.json";
 
 export const SoftSkillCard = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
 
-  const openPopup = (image) => {
+  const openPopup = (image, position) => {
     setSelectedImage(image);
+    setPopupPosition(position);
   };
 
   const closePopup = () => {
@@ -20,7 +22,12 @@ export const SoftSkillCard = () => {
       {softSkillsData.map((skill) => (
         <figure
           key={skill.id}
-          onClick={() => openPopup(skill)}
+          onClick={(e) =>
+            openPopup(skill, {
+              x: e.target.getBoundingClientRect().right,
+              y: e.target.getBoundingClientRect().top,
+            })
+          }
           className={styles.skill}
         >
           <div className={styles.softSkillImage}>
@@ -30,7 +37,10 @@ export const SoftSkillCard = () => {
         </figure>
       ))}
       {selectedImage && (
-        <div className={styles.popup}>
+        <div
+          className={styles.popup}
+          style={{ top: popupPosition.y, left: popupPosition.x - 100 }}
+        >
           <p>{selectedImage.description}</p>
           <button onClick={closePopup} className={styles.buttonClose}>
             Fechar

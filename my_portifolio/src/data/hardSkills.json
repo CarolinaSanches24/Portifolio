@@ -1,21 +1,26 @@
 [
   {
+    "id": 1,
     "title": "HTML",
     "imageSrc": "hard_skills/html.png"
   },
   {
+    "id": 2,
     "title": "CSS",
     "imageSrc": "hard_skills/css.png"
   },
   {
+    "id": 3,
     "title": "Java Script",
     "imageSrc": "hard_skills/javascript.png"
   },
   {
+    "id": 4,
     "title": "SQL",
     "imageSrc": "hard_skills/sql.png"
   },
   {
+    "id": 5,
     "title": "Node.JS",
     "imageSrc": "hard_skills/node.png"
   }

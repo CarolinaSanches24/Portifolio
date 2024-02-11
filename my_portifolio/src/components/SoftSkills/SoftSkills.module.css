@@ -80,14 +80,16 @@
   .container_card {
     display: block;
     flex-direction: column;
-    align-items: flex-start;
+    position: relative;
+    left: 70px;
+    align-items: center;
   }
   .softSkillImage {
     margin-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 50%;
     align-items: center;
   }
 
@@ -118,9 +120,6 @@
   }
   .popup {
     position: fixed;
-    top: 50%;
-    left: 68%;
-    transform: translate(-50%, -50%);
     background-color: var(--color-white);
     padding: 20px;
     border: 2px solid var(--color-white);
@@ -129,6 +128,7 @@
     width: 60%;
     max-width: 280px;
     text-align: justify;
+    transform: translateX(-50%);
   }
 
   .popup button {
