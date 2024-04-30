@@ -18,18 +18,12 @@
   padding: 1em;
   border-radius: 20px;
 }
-.text_content {
-  font-family: var(--font-robot);
-  font-weight: 300;
-  line-height: normal;
-  font-size: 25px;
-  opacity: 0.8;
-}
-
-.text_name_content {
-  font-weight: 800;
-  font-size: 25px;
-  text-shadow: 2px 2px 4px rgba(150, 81, 42, 0.8);
+.text_aprensentation{
+  color:var(--color-purple);
+  font-family:var( --font-Inconsolata);
+  font-size:25px;
+  position:relative;
+  left:20px;
 }
 
 .education {
