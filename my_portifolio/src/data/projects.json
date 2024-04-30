@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "title": "Mari Artesanatos",
+      "imageSrc": "projects/mari_artesanatos.png",
+      "description":"  Nascido em 31 de julho de 1980, Harry é um bruxo, filho único de Tiago Potter e Lílian Evans Potter, considerado um dos mais famosos feiticeiros dos tempos modernos. Ele também foi um dos alunos mais famosos da Escola de Magia e Bruxaria de Hogwarts de seu tempo. É conhecido no mundo bruxo por ser o único sobrevivente da Maldição da Morte (Avada Kedavra), pois Lord Voldemort tentou assassiná-lo ainda recém-nascido."
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "imageSrc": "hard_skills/css.png",
+      "description":"  Nascido em 31 de julho de 1980, Harry é um bruxo, filho único de Tiago Potter e Lílian Evans Potter, considerado um dos mais famosos feiticeiros dos tempos modernos. Ele também foi um dos alunos mais famosos da Escola de Magia e Bruxaria de Hogwarts de seu tempo. É conhecido no mundo bruxo por ser o único sobrevivente da Maldição da Morte (Avada Kedavra), pois Lord Voldemort tentou assassiná-lo ainda recém-nascido."
+    }
+    
+  ]
