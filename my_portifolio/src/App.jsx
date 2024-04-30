@@ -4,6 +4,7 @@ import { Experience } from "./components/Experience/Experience";
 import { HardSkills } from "./components/HardSkills/HardSkills";
 import { Home } from "./components/Home/Home";
 import { NavBar } from "./components/Navbar/NavBar";
+import { Projects } from "./components/Projects/Projects";
 import { SoftSkillCard } from "./components/SoftSkills/SoftSkillCard";
 import { SoftSkills } from "./components/SoftSkills/SoftSkills";
 
@@ -17,6 +18,7 @@ function App() {
       <SoftSkillCard />
       <HardSkills />
       <Experience />
+      <Projects/>
     </div>
   );
 }

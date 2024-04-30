@@ -10,7 +10,6 @@ import AnimatedText from "../AnimatedText/AnimatedText";
 export const HardSkills = () => {
   const [slidePerView, setSlidePerView] = useState(3);
 
-  //Responsividade do slide
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth < 720) {
