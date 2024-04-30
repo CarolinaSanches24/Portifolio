@@ -33,7 +33,7 @@
   border: solid 2px var(--color-white);
   border-radius: 20%;
   padding: 1em;
-  box-shadow: var(--efect-shadow-orange);
+  box-shadow: var(--effect-shadow-purples);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,7 @@
   max-width: 30%;
   text-align: center;
   border-radius: 30px;
-  box-shadow: var(--efect-shadow);
+  box-shadow: var(--effect-shadow);
   color: var(--color-white);
   margin-bottom: 5%;
   padding: 2em;

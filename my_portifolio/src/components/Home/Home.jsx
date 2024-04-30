@@ -76,7 +76,7 @@ export const Home = () => {
         </div>
       </div>
       <img
-        src={getImageUrl("home/my_photo.png")}
+        src={getImageUrl("home/avatar.jpg")}
         alt="Fotografia Carolina Sanches em sua formatura"
         className={styles.my_photo}
       />

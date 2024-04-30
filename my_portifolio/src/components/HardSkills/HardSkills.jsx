@@ -30,7 +30,7 @@ export const HardSkills = () => {
   return (
     <section id="hard_skills">
       <h2 className={styles.title}>
-        Hard <span style={{ color: "#092635" }}>Skills</span>
+        Hard <span style={{  color: "#576cbc"  }}>Skills</span>
       </h2>
 
       <div className={styles.container}>

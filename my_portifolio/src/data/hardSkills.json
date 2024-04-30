@@ -16,11 +16,16 @@
   },
   {
     "id": 4,
+    "title": "TypeScript",
+    "imageSrc": "hard_skills/typescript.png"
+  },
+  {
+    "id": 5,
     "title": "SQL",
     "imageSrc": "hard_skills/sql.png"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Node.JS",
     "imageSrc": "hard_skills/node.png"
   }

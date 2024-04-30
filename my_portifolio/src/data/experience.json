@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "experience/logo_sourev.png",
+      "technologies": [
+        { "name": "GraphQL", "icon": "experience/icon/gql.png" },
+        { "name": "TypeScript", "icon": "experience/icon/ts.png" },
+        { "name": "AWS", "icon": "experience/icon/aws.png" },
+        { "name": "Redis", "icon": "experience/icon/redis.png" },
+        { "name": "Docker", "icon": "experience/icon/docker.png" },
+        { "name": "MySQL", "icon": "experience/icon/mysql.png" }
+      ],
+      "title": "SouRev",
+      "description": "Atuei como Estágiaria Backend , na implementação de novas funcionalidades , e manutenção de APIs utilizando as seguintes tecnologias:"
+    },
+    {
+      "id": 2,
+      "imageSrc": "experience/logo_fly.png",
+      "technologies": [
+        { "name": "Html", "icon": "hard_skills/html.png" },
+        { "name": "Css", "icon": "hard_skills/css.png" },
+        {"name":"GitHub", "icon":"contact/githubIcon.png"},
+        {"name":"Figma", "icon":"hard_skills/figma.png"}
+      ],
+      "title": "Fly Educação e Cultura",
+      "description": "Mentora Voluntária Frontend atuei auxiliando alunas no processo de desenvolvimento de aplicações Web e Lógica de Programação utilizando as seguintes tecnologias:"
+     
+    }
+  ]
+  

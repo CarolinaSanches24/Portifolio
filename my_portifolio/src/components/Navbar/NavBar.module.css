@@ -32,7 +32,7 @@
   font-family: var(--font-Inconsolata);
 }
 .menuItems a:hover {
-  color: var(--color-orange);
+  color: var(--color-primary);
 }
 .menuBtn {
   display: none;

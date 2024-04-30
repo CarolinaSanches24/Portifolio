@@ -15,7 +15,7 @@ export const SoftSkills = () => {
   return (
     <section className={styles.container} id="soft_skills">
       <h2 className={styles.title}>
-        Soft <span style={{ color: "#092635" }}>Skills</span>
+        Soft <span style={{ color: "#576cbc" }}>Skills</span>
       </h2>
       <div className={styles.content}>
         <div className={styles.soft_skills}>

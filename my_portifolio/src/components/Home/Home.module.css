@@ -151,7 +151,7 @@
   top: -128px;
   left: 10vw;
   border-radius: 764px;
-  background: rgba(255, 165, 0, 0.7);
+  background: var(--color-light-purple);
   filter: blur(100px);
   z-index: 0;
 }
@@ -164,7 +164,7 @@
   top: 500px;
   right: -8vw;
   border-radius: 764px;
-  background: rgba(255, 165, 0, 0.7);
+  background:var(--color-primary);
   filter: blur(100px);
   z-index: 0;
 }

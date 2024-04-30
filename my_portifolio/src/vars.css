@@ -4,9 +4,11 @@
   --color-primary: #576cbc;
   --color-secundary: #19376d;
   --color-dark: #0b2447;
-  --color-dark-blue: #092635;
+  --color-purple: #281259;
   --color-bg: #04152d;
-  --color-orange: #e3651d;
+  --color-orange: #190634;
+  --color-dark-purple: #2c1250;
+  --color-light-purple: #44238c;
   --color-orange-secundary: #ff8c00;
   --color-orange-terciary: #ff4500;
 
@@ -16,6 +18,9 @@
   --font-robot-condensed: "Roboto Condensed", sans-serif;
 
   /*Effects*/
-  --efect-shadow: 0px 4px 10px 10px #411e09;
-  --efect-shadow-orange: 0px 4px 10px 10px #ff4500;
+  --effect-shadow: 0px 4px 10px 10px #100814;
+  --effect-shadow-purples: 0px 4px 10px 10px #663398;
+  --effect-shadow-light: 5px 4px 6px rgba(245, 245, 245, 0.805);
+  --effect-linear-gradient: linear-gradient(135deg, #120926, #281259);
+  --effect-shadow-purple: 0px -10px 0px 0px #44238c;
 }
