@@ -1,22 +1,12 @@
 import { getImageUrl } from "../../utils";
 import styles from "./Home.module.css";
-import Typical from 'react-typical';
 export const Home = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-       <Typical
-          steps={[
-            'Olá',
-            4000 ,
-          'Meu Nome é Carol Sanches!',
-          6000 , 
-          'Seja Bem Vindo ao meu Portfólio!' , 
-          8000
-       ]}
-       loop={Infinity}
-       wrapper="p" className={styles.text_aprensentation}
-      />
+     <div className={styles.textAnimation}>
+      Olá, <span></span>
+     </div>
         <ul className={styles.education}>
           <div className={styles.education_itens}>
             <img
