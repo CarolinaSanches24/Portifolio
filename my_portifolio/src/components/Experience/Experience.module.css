@@ -4,6 +4,7 @@
   flex-direction: column;
   max-width: 62rem;
   padding-top: 5rem;
+
 }
 .container_experience .title {
   font-family: var(--font-Inconsolata);
@@ -20,6 +21,7 @@
   background-image: var(--effect-linear-gradient);
   box-shadow: var(--effect-shadow);
   border-radius: 50px;
+  margin-bottom: 80%;
 }
 .container_experience .experience .content {
   display: flex;
