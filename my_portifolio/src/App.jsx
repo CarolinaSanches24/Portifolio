@@ -7,6 +7,7 @@ import { NavBar } from "./components/Navbar/NavBar";
 import { Projects } from "./components/Projects/Projects";
 import { SoftSkillCard } from "./components/SoftSkills/SoftSkillCard";
 import { SoftSkills } from "./components/SoftSkills/SoftSkills";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <HardSkills />
       <Experience />
       <Projects/>
+      <Footer/>
     </div>
   );
 }

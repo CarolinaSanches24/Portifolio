@@ -1,33 +1,99 @@
 [
-    {
-      "id": 1,
-      "title": "Mari Artesanatos",
-      "imageSrc": "projects/mari_artesanatos.png",
-      "description":"  Nascido em 31 de julho de 1980, Harry é um bruxo, filho único de Tiago Potter e Lílian Evans Potter, considerado um dos mais famosos feiticeiros dos tempos modernos. Ele também foi um dos alunos mais famosos da Escola de Magia e Bruxaria de Hogwarts de seu tempo. É conhecido no mundo bruxo por ser o único sobrevivente da Maldição da Morte (Avada Kedavra), pois Lord Voldemort tentou assassiná-lo ainda recém-nascido.",
-      "icons": [
-        { "name": "View Project", "icon": "projects/icon/icon_nav.png", "link":"https://carolinasanches24.github.io/Mari_Lima_Artesanato/"},
-        { "name": "View Code", "icon":"projects/icon/icon_code.png","link":"https://github.com/CarolinaSanches24/Mari_Lima_Artesanato"}
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Pagína Simples Hamburgueria",
-      "imageSrc": "projects/hamburgueria.png",
-      "description":"  Nascido em 31 de julho de 1980, Harry é um bruxo, filho único de Tiago Potter e Lílian Evans Potter, considerado um dos mais famosos feiticeiros dos tempos modernos. Ele também foi um dos alunos mais famosos da Escola de Magia e Bruxaria de Hogwarts de seu tempo. É conhecido no mundo bruxo por ser o único sobrevivente da Maldição da Morte (Avada Kedavra), pois Lord Voldemort tentou assassiná-lo ainda recém-nascido.",
-      "icons": [
-        { "name": "View Project", "icon": "projects/icon/icon_nav.png", "link":"https://carolinasanches24.github.io/Hamburgueria/"},
-        { "name": "View Code", "icon":"projects/icon/icon_code.png","link":"https://github.com/CarolinaSanches24/Hamburgueria"}
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Portifólio",
-      "imageSrc": "projects/portifolio.png",
-      "description":"  Nascido em 31 de julho de 1980, Harry é um bruxo, filho único de Tiago Potter e Lílian Evans Potter, considerado um dos mais famosos feiticeiros dos tempos modernos. Ele também foi um dos alunos mais famosos da Escola de Magia e Bruxaria de Hogwarts de seu tempo. É conhecido no mundo bruxo por ser o único sobrevivente da Maldição da Morte (Avada Kedavra), pois Lord Voldemort tentou assassiná-lo ainda recém-nascido.",
-      "icons": [
-        { "name": "View Project", "icon": "projects/icon/icon_nav.png", "link":"https://myportifolio-carolina-sanches-projects.vercel.app/"},
-        { "name": "View Code", "icon":"projects/icon/icon_code.png","link":"https://github.com/CarolinaSanches24/Portifolio"}
-      ]
-    }
-    
-  ]
+  {
+    "id": 1,
+    "title": "Mari Artesanatos",
+    "imageSrc": "projects/mari_artesanatos.png",
+    "description": "Esta página foi desenvolvida como esboço de um ecommerce para uma cliente, produtora de artesanatos no qual utilizei elementos como a biblioteca swipper, para criação dos slides de imagens, o início deste projeto foi desenvolvido na técnica de mobile first no qual consiste em desenvolver primeiro em telas pequenas e depois evoluir para telas maiores.",
+    "icons": [
+      {
+        "name": "View Project",
+        "icon": "projects/icon/icon_nav.png",
+        "link": "https://carolinasanches24.github.io/Mari_Lima_Artesanato/"
+      },
+      {
+        "name": "View Code",
+        "icon": "projects/icon/icon_code.png",
+        "link": "https://github.com/CarolinaSanches24/Mari_Lima_Artesanato"
+      }
+    ],
+    "technologies": [
+      { "id": 1, "name": "HTML" },
+      { "id": 2, "name": "CSS" },
+      { "id": 3, "name": "JavaScript" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pagína Simples Hamburgueria",
+    "imageSrc": "projects/hamburgueria.png",
+    "description": "Protótipo de Página para eccomerce baseada em propanda e delivery para restaurantes e hamburguerias, aplicando conceitos de responsividade, desenvolvido com intuito de aprendizagem de tecnicas de desenvolvimento front-end, aplicando conceitos básicos de paginas web e desenvolvimento responsivo com media queries.",
+    "icons": [
+      {
+        "name": "View Project",
+        "icon": "projects/icon/icon_nav.png",
+        "link": "https://carolinasanches24.github.io/Hamburgueria/"
+      },
+      {
+        "name": "View Code",
+        "icon": "projects/icon/icon_code.png",
+        "link": "https://github.com/CarolinaSanches24/Hamburgueria"
+      }
+    ],
+    "technologies": [
+      { "id": 1, "name": "HTML" },
+      { "id": 2, "name": "CSS" },
+      { "id": 3, "name": "JavaScript" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Portfólio",
+    "imageSrc": "projects/portifolio.png",
+    "description": "Projeto de Portifólio pessoal desenvolvido em React.js com Vite, utilizando bibliotecas como swipper, animações com css animation, estilização feita em css.modules, organização e divisão de responsibilidades de cada componente , abstração de dados de arquivos Json( JavaScriptObjectNotation), para adicionar responsidade foram utilizadas medias queries.",
+    "icons": [
+      {
+        "name": "View Project",
+        "icon": "projects/icon/icon_nav.png",
+        "link": "https://myportifolio-carolina-sanches-projects.vercel.app/"
+      },
+      {
+        "name": "View Code",
+        "icon": "projects/icon/icon_code.png",
+        "link": "https://github.com/CarolinaSanches24/Portifolio"
+      }
+    ],
+    "technologies": [
+      { "id": 1, "name": "React" },
+      { "id": 2, "name": "CSS" },
+      { "id": 3, "name": "JavaScript" },
+      { "id": 4, "name": "HTML" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Dorothy Adoção",
+    "imageSrc": "projects/animals.png",
+    "description": "Contribui com desafio técnico do Bootcamp da Womakers Code Colaborando com criação de um sistema Web de Adoção de pets, onde construi toda lógica de pesquisa,  upload de imagens, construção de api rest, dentro do próprio Django para cadastro de animais.",
+    "icons": [
+      {
+        "name": "View Project",
+        "icon": "projects/icon/icon_nav.png",
+        "link": "https://web-production-60fb.up.railway.app/"
+      },
+      {
+        "name": "View Code",
+        "icon": "projects/icon/icon_code.png",
+        "link": "https://github.com/CarolinaSanches24/Projeto-Django-Animals"
+      }
+    ],
+    "technologies": [
+      { "id": 1, "name": "Django" },
+      { "id": 2, "name": "Python" },
+      { "id": 3, "name": "API Rest" },
+      { "id": 4, "name": "HTML" },
+      { "id": 5, "name": "Bootstrap" },
+      { "id": 6, "name": "CSS" }
+    ]
+  }
+  
+]

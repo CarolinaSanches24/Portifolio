@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 export const Projects = () => {
   return (
     <section id="projects" className={styles.container_projects}>
-      <h2 className={styles.title}>Projects</h2>
+      <h2 className={styles.title}>Projetos FrontEnd</h2>
       <div className={styles.cards}>
         {projects.map((project) => {
           return (
@@ -14,15 +14,28 @@ export const Projects = () => {
                 <img src={getImageUrl(project.imageSrc)} alt={project.title} />
               </figure>
               <figcaption>
-                <h1>{project.title}</h1>
-                <p>{project.description}</p>
+                <div className={styles.content}>
+                  <h1>{project.title}</h1>
+                  <hr></hr>
+                  <p className={styles.description}>{project.description}</p>
+                  <ul>
+                    {project.technologies.map((technology) => (
+                      <li key={technology.id}>{technology.name}</li>
+                    ))}
+                  </ul>
+                </div>
               </figcaption>
               <div className={styles.icons}>
-              {project.icons && project.icons.map((icon, index) => (
-                  <a key={index} href={icon.link}>
-                    <img src={getImageUrl(icon.icon)} title={icon.name} alt={icon.name} />
-                  </a>
-                ))}
+                {project.icons &&
+                  project.icons.map((icon, index) => (
+                    <a key={index} href={icon.link}>
+                      <img
+                        src={getImageUrl(icon.icon)}
+                        title={icon.name}
+                        alt={icon.name}
+                      />
+                    </a>
+                  ))}
               </div>
             </div>
           );
