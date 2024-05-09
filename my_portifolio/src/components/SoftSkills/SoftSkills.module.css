@@ -115,8 +115,11 @@
   }
 
   .title_card {
-    color: var(--color-dark-blue);
-    padding: 1em;
+    padding: 0.5rem;
+    position: relative;
+    color:var(--color-white);
+    max-width: 20rem;
+    left:-40px;
   }
   .popup {
     position: fixed;
@@ -177,4 +180,5 @@
   .buttonClose:hover::before {
     width: 100%;
   }
+
 }
