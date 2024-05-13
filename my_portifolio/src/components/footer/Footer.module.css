@@ -3,7 +3,20 @@
     margin: 2rem;
     padding: 2rem;
     text-align: center;
+    max-width: 100%;
 }
-.footer p{
+.footer .copywrite{
     color:var(--color-white);
+    font-size: 12px;
+}
+
+@media screen and (max-width: 728px) {
+    .footer{
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .footer .copywrite{
+        padding:1rem;
+    }
 }

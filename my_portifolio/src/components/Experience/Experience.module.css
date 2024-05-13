@@ -6,7 +6,10 @@
   padding-top: 5rem;
 }
 .container_experience .title {
-  font-family: var(--font-Inconsolata);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
   margin-bottom: 2rem;
   color: var(--color-white);
 }
@@ -68,6 +71,7 @@
   .container_experience .experience .card {
     width: 90%;
     margin-bottom: 10%;
+    padding: 0;
   }
   .container_experience .experience .content {
     flex-direction: column;

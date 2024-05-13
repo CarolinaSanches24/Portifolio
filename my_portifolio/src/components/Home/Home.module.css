@@ -165,15 +165,18 @@
 .textAnimation {
   font-size: 25px;
   font-weight: 300;
+
 }
 .textAnimation span {
   position: relative;
+
 }
 
 .textAnimation span::before {
   content: "";
   color: var(--color-purple);
   animation: words 15s infinite;
+ 
 }
 .textAnimation span::after {
   content: "";
@@ -184,6 +187,7 @@
   animation: cursor 0.6s infinite, typing 25s steps(15) infinite;
   width: 103%;
   background-color: var(--color-white);
+
 }
 
 @keyframes words {
@@ -259,5 +263,11 @@
   .topOrange {
     left: 0;
     min-width: 200px;
+  }
+  .textAnimation span::before {
+    animation: words 15s infinite;
+  }
+  .textAnimation span::after {
+    display: none;
   }
 }

@@ -73,6 +73,7 @@
 .container_projects .cards .icons {
   display: flex;
   justify-content: center;
+  padding: 1rem;
 }
 .container_projects .cards .icons img {
   width: 2rem;
@@ -80,23 +81,26 @@
   border: none;
   margin-left: 5px;
 }
-
-@media screen {
+@media screen and (max-width: 728px) {
   .container_projects .cards {
     flex-direction: column;
     align-items: center;
   }
   .container_projects .card {
-    width: 100%;
+    width: 90%;
   }
   .container_projects .card p {
     padding: 2rem;
   }
-  .container_projects .card .content{
+  .container_projects .card .content {
     height: 20rem;
   }
 
   .container_projects .card .content ul {
-    margin-top: 5rem;
+    padding: 0.5rem;
+  }
+  .container_projects .card .description {
+    height: 80%;
+    max-width: 100%;
   }
 }
