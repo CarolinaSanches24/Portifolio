@@ -40,7 +40,7 @@ export const NavBar = () => {
             <a href="#projects">Projetos</a>
           </li>
           <li>
-            <a href="./assets/resume/cv.pdf" className={styles.button_resume}>
+            <a href="./assets/resume/cv.pdf" target="_blank" className={styles.button_resume}>
               Resume
             </a>
           </li>
